@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "PowerShell($token = \"e62b3584fbf8f20c9224db46933c97df27ceb13080cbc4868f9b6f0c22fe\"; $headers = @{ Authorization = \"Bearer $token\" }; try { $r = Invoke-RestMethod -Uri \"https://platform.acceptatie.centraalregistertechniek.nl/api/rest/crt/v1/organizationQualification?limit=5\" -Method GET -Headers $headers; $r | ConvertTo-Json -Depth 10 } catch { $_.Exception.Message; $_.ErrorDetails.Message })",
+      "Bash(curl -s http://localhost:3000)",
+      "PowerShell(Get-Process -Id \\(Get-NetTCPConnection -LocalPort 3000 -ErrorAction SilentlyContinue\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force -Confirm:$false)",
+      "PowerShell(npm install leaflet react-leaflet --prefix C:\\\\Users\\\\willi\\\\projecten\\\\deb-api)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
